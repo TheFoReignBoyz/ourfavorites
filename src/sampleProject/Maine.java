@@ -9,9 +9,13 @@ public class Maine {
 	
 	public void bruteForceJokeMethod(){
 		for(int i = 0; i < 100; i++){
-			System.out.println("Why is " + i + "afraid of " + i+1 + "?");
-			System.out.println("Because " + i +  i+1 + i+2);
-			System.out.println("\n The Genie says you have " + i + " wishes");
+			int i0 = i-1;
+			int i2 = i+1;
+			int i3 = i+2;
+			
+			System.out.println("Why is " + i0 + " " + "afraid of " + i + "?");
+			System.out.println("Because " + i + " " +  i2 + " " + i3);
+			
 		}
 	}
 }
